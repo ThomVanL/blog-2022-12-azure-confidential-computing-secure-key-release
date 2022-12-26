@@ -27,13 +27,13 @@
 param (
     [Parameter(Mandatory = $true)]
     [string]
-    $AttestationTenant = "https://sharedweu.weu.attest.azure.net",
+    $AttestationTenant,
     [Parameter(Mandatory = $true)]
     [string]
-    $VaultBaseUrl = "https://skr-kvq6srllol2jntw.vault.azure.net/",
+    $VaultBaseUrl,
     [Parameter(Mandatory = $true)]
     [string]
-    $KeyName = "myskrkey",
+    $KeyName,
     [Parameter(Mandatory = $false)]
     [string]
     $KeyVersion
