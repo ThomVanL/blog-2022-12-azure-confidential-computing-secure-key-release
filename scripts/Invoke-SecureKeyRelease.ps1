@@ -59,15 +59,15 @@ if (!$attestedPlatformReportJwt.StartsWith("eyJ")) {
 }
 
 ## Get access token from IMDS for Key Vault
-$uri = 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://vault.azure.net'
-$kvTokenResponse = Invoke-WebRequest -Uri  $uri -Headers @{Metadata = "true" }
-if ($reponse.StatusCode -ne 200) {
+$imdsUrl = 'http://169.254.169.254/metadata/identity/oauth2/token?api-version=2018-02-01&resource=https://vault.azure.net'
+$kvTokenResponse = Invoke-WebRequest -Uri  $imdsUrl -Headers @{Metadata = "true" }
+if ($kvTokenResponse.StatusCode -ne 200) {
     throw "Unable to get access token. Ensure Azure Managed Identity is enabled."
 }
 $kvAccessToken = ($kvTokenResponse.Content | ConvertFrom-Json).access_token
 
 # Perform release key operation
-if (string.IsNullOrEmpty($keyVersion)) {
+if ([string]::IsNullOrEmpty($keyVersion)) {
     $kvReleaseKeyUrl = "{0}/keys/{1}/release?api-version=7.3" -f $vaultBaseUrl, $keyName
 }
 else {
