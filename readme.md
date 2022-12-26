@@ -14,4 +14,4 @@ Azure Key Vault’s secure key release mechanism should let us get more control 
 
 ## 🔗 Links
 
-- [Full blog post](https://thomasvanlaere.com/posts/2022/02/exploring-windows-containers-page-files/)
+- [Full blog post](https://thomasvanlaere.com/posts/2022/12/azure-confidential-computing-secure-key-release/)
