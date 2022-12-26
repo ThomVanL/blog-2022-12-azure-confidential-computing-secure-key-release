@@ -10,7 +10,7 @@ I had been wondering how one would go about using this feature, so in this blog 
 
 Azure Key Vault’s secure key release mechanism should let us get more control over which applications get access to a specific key.
 
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FThomVanL%2F%2Fblog-2022-12-azure-confidential-computing-secure-key-release%2Fmain%2Fbicep%2Fmain.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FThomVanL%2Fblog-2022-12-azure-confidential-computing-secure-key-release%2Fmain%2Fbicep%2Fmain.json)
 
 ## 🔗 Links
 
