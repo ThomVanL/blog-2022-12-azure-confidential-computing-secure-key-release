@@ -1,0 +1,98 @@
+{
+    "exp": 1671865218,
+    "iat": 1671836418,
+    "iss": "https://sharedweu.weu.attest.azure.net",
+    "jti": "ce395e5de9c638d384cd3bd06041e674edee820305596bba3029175af2018da0",
+    "nbf": 1671836418,
+    "secureboot": true,
+    "x-ms-attestation-type": "azurevm",
+    "x-ms-azurevm-attestation-protocol-ver": "2.0",
+    "x-ms-azurevm-attested-pcrs": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+    ],
+    "x-ms-azurevm-bootdebug-enabled": false,
+    "x-ms-azurevm-dbvalidated": true,
+    "x-ms-azurevm-dbxvalidated": true,
+    "x-ms-azurevm-debuggersdisabled": true,
+    "x-ms-azurevm-default-securebootkeysvalidated": true,
+    "x-ms-azurevm-elam-enabled": false,
+    "x-ms-azurevm-flightsigning-enabled": false,
+    "x-ms-azurevm-hvci-policy": 0,
+    "x-ms-azurevm-hypervisordebug-enabled": false,
+    "x-ms-azurevm-is-windows": false,
+    "x-ms-azurevm-kerneldebug-enabled": false,
+    "x-ms-azurevm-osbuild": "NotApplication",
+    "x-ms-azurevm-osdistro": "Ubuntu",
+    "x-ms-azurevm-ostype": "Linux",
+    "x-ms-azurevm-osversion-major": 20,
+    "x-ms-azurevm-osversion-minor": 4,
+    "x-ms-azurevm-signingdisabled": true,
+    "x-ms-azurevm-testsigning-enabled": false,
+    "x-ms-azurevm-vmid": "6506B531-1634-431E-99D2-42B7D3414AD0",
+    "x-ms-isolation-tee": {
+        "x-ms-attestation-type": "sevsnpvm",
+        "x-ms-compliance-status": "azure-compliant-cvm",
+        "x-ms-runtime": {
+            "keys": [
+                {
+                    "e": "AQAB",
+                    "key_ops": [
+                        "encrypt"
+                    ],
+                    "kid": "HCLAkPub",
+                    "kty": "RSA",
+                    "n": "tXkRLAABQ7vgX9642J2jS2l1m70YMp9w6wxSgOYWsfhifCnoFzH-iwie-u06hqfuPkHPCoFf0hS3zGEolRf-SpsWZY4oCK7n3AGKGfdJ4RxyXphxCU4J6U4H7iPd51dPM1FjPrJEr1tWE9gCM-y1y0Vim3vcAp8n70IFXtHv-KvZds9X0WVeGOcKMJM8JT6g71k1EcQ4md6fM64JZT1zTkp6N58nkqF0xCmfA3rbXlPUjSJ8A-GPXQ61tTgwQEMDaxY1jdrYCVCPRgJZrybLEAsjJZNQ6UHxyX0sE5nbhkloIhBX3XNXj5QllqfFFJX_fY9JrfXQzW01bsVHk0e1OQ"
+                }
+            ],
+            "vm-configuration": {
+                "console-enabled": true,
+                "current-time": 1671835548,
+                "secure-boot": true,
+                "tpm-enabled": true,
+                "vmUniqueId": "6506B531-1634-431E-99D2-42B7D3414AD0"
+            }
+        },
+        "x-ms-sevsnpvm-authorkeydigest": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "x-ms-sevsnpvm-bootloader-svn": 3,
+        "x-ms-sevsnpvm-familyId": "01000000000000000000000000000000",
+        "x-ms-sevsnpvm-guestsvn": 2,
+        "x-ms-sevsnpvm-hostdata": "0000000000000000000000000000000000000000000000000000000000000000",
+        "x-ms-sevsnpvm-idkeydigest": "57486a447ec0f1958002a22a06b7673b9fd27d11e1c6527498056054c5fa92d23c50f9de44072760fe2b6fb89740b696",
+        "x-ms-sevsnpvm-imageId": "02000000000000000000000000000000",
+        "x-ms-sevsnpvm-is-debuggable": false,
+        "x-ms-sevsnpvm-launchmeasurement": "ad6de16ac59ee52351c6038df58d1be5aeaf41cd0f7c81b2279ecca0df6ef43a2b69d663ad6973d6dbb9db0ffd7a9023",
+        "x-ms-sevsnpvm-microcode-svn": 115,
+        "x-ms-sevsnpvm-migration-allowed": false,
+        "x-ms-sevsnpvm-reportdata": "c6500859af95440206aac5e93eb50a0f2cfd4fa2c5485e05a5c77a5d81c3dee30000000000000000000000000000000000000000000000000000000000000000",
+        "x-ms-sevsnpvm-reportid": "cf5ea742f08cb45240e8ad4719b6115028f3e1d9d88175a247eb7c6c86da6493",
+        "x-ms-sevsnpvm-smt-allowed": true,
+        "x-ms-sevsnpvm-snpfw-svn": 8,
+        "x-ms-sevsnpvm-tee-svn": 0,
+        "x-ms-sevsnpvm-vmpl": 0
+    },
+    "x-ms-policy-hash": "wm9mHlvTU82e8UqoOy1Yj1FBRSNkfe99-69IYDq9eWs",
+    "x-ms-runtime": {
+        "client-payload": {
+            "nonce": ""
+        },
+        "keys": [
+            {
+                "e": "AQAB",
+                "key_ops": [
+                    "encrypt"
+                ],
+                "kid": "TpmEphemeralEncryptionKey",
+                "kty": "RSA",
+                "n": "kVTLSwAAQpgtlqkwRrDXhDg_c1MfhRXI3xNPlCV1eVlEh5erlMcKZ1r_FU_r1qfjfbXgwraLbWRA0iPidvsverG08UFiAk76n9HrSGqQszwSX3MG8TnSmLE8lG77Kv8lyMxC7Cy-9g7N_1zb0lG_wh9mCHmHTgIIp1Lu6XSNokskqxABUWUqB71zFNEetLs_6KMWGBwj7wYPGBtcmYWECxf0QJk47qGFtPFbIN4HH81QJjBAJ058J96MyovE6VNfGDXFQHFy_2wKBIO70O0KNmuDUkQgpjIVEW1lkusbNRtxUOuURfQiNijJithxWnwWyeWQsLFhShyO0T9cX5O0pQ"
+            }
+        ]
+    },
+    "x-ms-ver": "1.0"
+}
