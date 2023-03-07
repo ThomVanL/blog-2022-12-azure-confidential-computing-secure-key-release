@@ -13,10 +13,9 @@ function Out-Jwt {
         $paddedToken = $_.Replace('-', '+').Replace('_', '/')
         switch ($paddedToken.Length % 4) {
             0 { break; }
-            2 { $paddedToken += '==' }
-            3 { $paddedToken += '=' }
+            2 { $paddedToken += '=='; break; }
+            3 { $paddedToken += '='; break; }
         }
-
 
         [System.Text.Encoding]::UTF8.GetString([convert]::FromBase64String($paddedToken)) | Write-Host
 
