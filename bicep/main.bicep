@@ -55,7 +55,7 @@ module akv 'keyvault.bicep' = {
     keySize: 4096
     keyExportable: true // Enables release
     keyEnabled: true
-    keyOps: ['encrypt','decrypt']
+    keyOps: ['encrypt','decrypt'] /// encrypt and decrypt only works with RSA keys, not EC keys
     keyNotBefore:keyNotBefore
     keyExpiration: keyExpiration
     releasePolicyContentType: 'application/json; charset=utf-8'
