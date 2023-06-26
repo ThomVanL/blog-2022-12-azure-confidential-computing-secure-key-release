@@ -16,4 +16,4 @@ Azure Key Vault’s secure key release mechanism should let us get more control 
 
 - [Secure key release with Key Vault access policies blog post (12/2022)](https://thomasvanlaere.com/posts/2022/12/azure-confidential-computing-secure-key-release/)
 - [Secure key release with Azure RBAC blog post (06/2023)](https://thomasvanlaere.com/posts/2023/06/azure-confidential-computing-secure-key-release-rbac/)
-- [Secure key release with Azure RBAC blog post GitHub repo (12/2022)](https://github.com/ThomVanL/blog-2023-06-azure-confidential-computing-secure-key-release-rbac/)
+- [Secure key release with Azure RBAC blog post GitHub repo (06/2023)](https://github.com/ThomVanL/blog-2023-06-azure-confidential-computing-secure-key-release-rbac/)
